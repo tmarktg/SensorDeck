@@ -48,13 +48,3 @@ A window that: connects to the simulator with one click, shows three live-updati
 5. Add the live chart.
 6. Add outbound commands.
 7. Write the tests.
-
-Each step is a working checkpoint, which suits how you build.
-
-## Resume line it earns you
-
-Something like: _"Built a WPF/.NET telemetry dashboard integrating with a networked device over TCP, using MVVM and a Producer/Consumer pipeline for real-time async data streaming; unit- and integration-tested with xUnit."_ — every noun in that sentence is one of their bullets.
-
-One thing worth flagging: this overlaps conceptually with Sentinel-Grid (sensor telemetry). That's good — you can talk about the _domain_ fluently — but keep this a clean, separate, obviously-C# repo so the .NET skill reads unambiguously.
-
-Want me to write out the actual starter code — the simulator plus the MVVM skeleton with the async socket loop and channel wired up?
